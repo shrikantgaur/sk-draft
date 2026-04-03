@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Build outputs (optional – some people commit dist, but better to ignore)
+dist/
+
+# Cache and logs
+.vite/
+*.log
+.DS_Store
+
+# Composer
+composer.lock
+
+# IDE files
+.idea/
+.vscode/
+
+# WordPress specific
+*.sql
+*.zip

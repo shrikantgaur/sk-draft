@@ -1,22 +1,47 @@
-<p align="center"><a href="https://tailpress.io" target="_blank"><img src="https://raw.githubusercontent.com/tailpress/art/main/logo.svg" width="200" alt="TailPress"></a></p>
-
 <p align="center">
-<a href="https://github.com/tailpress/tailpress/releases/"><img src="https://img.shields.io/github/release/tailpress/tailpress?include_prereleases=&sort=semver" alt="GitHub release"></a>
-<a href="https://packagist.org/packages/tailpress/tailpress"><img src="https://img.shields.io/packagist/dt/tailpress/tailpress" alt="Total Downloads"></a>
-<a href="#license"><img src="https://img.shields.io/badge/License-MIT-blue" alt="License"></a>
+  <img src="https://raw.githubusercontent.com/tailpress/art/main/logo.svg" width="200" alt="SK Draft – TailPress powered WordPress theme">
 </p>
 
-## About TailPress
+<h1 align="center">SK Draft</h1>
 
-[TailPress](https://tailpress.io) is your go-to starting point for your next [Tailwind CSS](https://tailwindcss.com) powered [WordPress](https://wordpress.org) theme.
+<p align="center">
+  A modern, fast, and accessible WordPress blog theme built with <a href="https://tailwindcss.com">Tailwind CSS</a> and <a href="https://tailpress.io">TailPress</a>.
+</p>
 
-To get started, have a look at the [documentation](https://tailpress.io/docs).
+<p align="center">
+  <a href="https://github.com/shrikantgaur/sk-draft"><img src="https://img.shields.io/github/repo-size/shrikantgaur/sk-draft" alt="Repo size"></a>
+  <a href="https://github.com/shrikantgaur/sk-draft/blob/main/LICENSE"><img src="https://img.shields.io/github/license/shrikantgaur/sk-draft" alt="License"></a>
+  <a href="https://github.com/shrikantgaur/sk-draft/releases"><img src="https://img.shields.io/github/v/release/shrikantgaur/sk-draft" alt="Latest release"></a>
+</p>
 
-## Contributors
+## 🚀 Features
 
-- [Jeffrey van Rossum](https://github.com/jeffreyvr)
-- [All contributors](https://github.com/tailpress/tailpress/graphs/contributors)
+- **Tailwind CSS v4** – utility‑first styling for unique, responsive designs.
+- **Vite** – lightning‑fast builds and Hot Module Replacement (HMR) during development.
+- **WordPress block editor ready** – full `theme.json` support for global styles and settings.
+- **Accessible** – follows WCAG 2.0 AA guidelines (skip link, keyboard navigation, semantic HTML).
+- **Translation ready** – all strings are wrapped in `__()` and `_e()`.
+- **Performance optimized** – minimal JavaScript, lazy loaded images, and automatic CSS purging.
+- **SEO friendly** – clean semantic markup, supports popular SEO plugins.
+- **Developer friendly** – modern tooling (npm, Vite, Composer) and easy customisation.
 
-## License
+## 📦 Requirements
 
-MIT. Please see the [License File](/LICENSE) for more information.
+- WordPress 6.0 or higher
+- PHP 7.4 or higher
+- Node.js 18+ & npm (for development)
+
+## 🛠️ Installation
+
+### From GitHub (for development)
+
+1. Clone the repository into your WordPress themes folder:
+   ```bash
+   git clone https://github.com/shrikantgaur/sk-draft.git wp-content/themes/sk-draft
+
+   cd wp-content/themes/sk-draft
+npm install
+composer install
+
+
+npm run dev
